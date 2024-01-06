@@ -191,7 +191,7 @@ input[type="email"] {
     padding: 21px 58px 22px 21px;
     border-radius: 8px;
     border: 1px solid #FFF;
-    margin: 16px;
+    margin: 16px 0px;
 }
 
 .subs-button {
