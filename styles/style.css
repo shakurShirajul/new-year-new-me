@@ -51,9 +51,9 @@ header {
 .failure {
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     justify-content: center;
     margin-top: 140px;
+    margin-bottom: 135px;
 }
 
 .section-title {
@@ -81,7 +81,13 @@ header {
     font-size: 16px;
     font-weight: 400;
 }
-
+.failure ul{
+    list-style: none;
+}
+.failure ul li:before{
+    content: '✓ ';
+    color:#16D887;
+}
 .plan-title {
     text-align: center;
 }
@@ -143,7 +149,7 @@ footer {
     display: flex;
     color: white;
     padding: 130px 230px;
-    justify-content: space-evenly;
+    gap: 250px;
 }
 
 .footer-title {
@@ -192,6 +198,9 @@ input[type="email"] {
     background: #005FAC;
     border: 0;
     padding: 20px 36px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #footer-column-right{
